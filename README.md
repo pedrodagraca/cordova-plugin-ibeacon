@@ -17,6 +17,7 @@
          under the License.
 -->
 
+## This is a fork of https://github.com/petermetz/cordova-plugin-ibeacon.git that addresses the Andriod 12 issue of "Could not find method compile() for arguments [org.altbeacon:android-beacon-library:2.16.1]"
 
 ## ![iBeacon Cordova Plugin](http://icons.iconarchive.com/icons/artua/mac/128/Bluetooth-icon.png) Cordova / Phonegap iBeacon plugin
 
