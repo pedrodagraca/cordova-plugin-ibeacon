@@ -97,7 +97,7 @@
         </config-file>
 	    
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
-			<receiver android:exported="true"
+			<receiver android:exported="true" tools:replace="android:exported"
              android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver"  >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
